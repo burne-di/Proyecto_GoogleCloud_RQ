@@ -1,6 +1,6 @@
-# GCP Retail Intelligence Platform 🛒☁️
+# GoogleCloud Retail Intelligence Platform 🛒☁️
 
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![GoogleCloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -125,8 +125,8 @@ E-commerce App → Cloud SQL → Pub/Sub → Dataflow → Cloud Storage (Data La
 
 ```bash
 # Clone the repository
-git clone https://github.com/burne-di/Proyecto_GCP_RQ.git
-cd Proyecto_GCP_RQ
+git clone https://github.com/burne-di/Proyecto_GoogleCloud_RQ.git
+cd Proyecto_GoogleCloud_RQ
 
 # Install dependencies
 npm install
@@ -157,7 +157,7 @@ npm run format
 ## 📁 Project Structure
 
 ```
-Proyecto_GCP_RQ/
+Proyecto_GoogleCloud_RQ/
 ├── src/
 │   ├── components/
 │   │   ├── ui/              # Reusable UI components
@@ -169,12 +169,12 @@ Proyecto_GCP_RQ/
 │   │   └── utils.ts         # Utility functions
 │   ├── App.tsx              # Main app component
 │   ├── main.tsx             # Entry point
-│   └── index.css            # Global styles (GCP theme)
+│   └── index.css            # Global styles (GoogleCloud theme)
 ├── public/
 │   └── images/              # Static assets
 ├── docs/                    # Build output (GitHub Pages)
 ├── vite.config.ts           # Vite configuration
-├── tailwind.config.js       # Tailwind configuration (GCP colors)
+├── tailwind.config.js       # Tailwind configuration (GoogleCloud colors)
 ├── tsconfig.json            # TypeScript configuration
 └── package.json             # Project dependencies
 ```
@@ -183,16 +183,16 @@ Proyecto_GCP_RQ/
 
 This project uses **Google Cloud Platform's design language** with official brand colors:
 
-- **GCP Blue**: `#4285F4` - Primary actions and highlights
-- **GCP Red**: `#EA4335` - Alerts and important metrics
-- **GCP Yellow**: `#FBBC04` - Warnings and secondary highlights
-- **GCP Green**: `#34A853` - Success states and positive metrics
-- **GCP Gray**: `#5F6368` - Text and neutral elements
+- **GoogleCloud Blue**: `#4285F4` - Primary actions and highlights
+- **GoogleCloud Red**: `#EA4335` - Alerts and important metrics
+- **GoogleCloud Yellow**: `#FBBC04` - Warnings and secondary highlights
+- **GoogleCloud Green**: `#34A853` - Success states and positive metrics
+- **GoogleCloud Gray**: `#5F6368` - Text and neutral elements
 
 ## 🔒 Infrastructure as Code
 
 ```hcl
-# Example Terraform configuration for GCP resources
+# Example Terraform configuration for GoogleCloud resources
 # terraform/main.tf
 
 resource "google_bigquery_dataset" "retail_dwh" {
